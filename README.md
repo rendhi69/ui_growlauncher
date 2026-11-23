@@ -1,17 +1,16 @@
 # UI Growlauncher Library & Templates (Boren Store)
 
 Koleksi lengkap mentahan UI (User Interface) untuk bot **Growlauncher** (Android & PC).
-Repository ini memisahkan 3 varian UI utama yang pernah dibuat, lengkap dengan modul mentahan (button, form, input, toggle, theme, card) serta contoh script runnable (`demo_*.lua`) yang bisa langsung dieksekusi di Growlauncher.
+Repository ini memisahkan 2 varian UI utama, lengkap dengan modul mentahan (button, form, input, toggle, theme, card) serta contoh script runnable (`demo_*.lua`) yang bisa langsung dieksekusi di Growlauncher.
 
 ---
 
-## Daftar 3 Desain UI
+## Daftar Desain UI
 
 ```
 ui_growlauncher/
 ├── 1_ui_native_launcher/      # UI 1: Native Menu Bawaan Growlauncher (Nempel di UI Launcher)
-├── 2_ui_console_boren/        # UI 2: Console ImGui Boren Store (Dipakai di Script Rilis Terakhir)
-└── 3_ui_new_apex/             # UI 3: New Apex Suite v3.0 (Desain Modern Neon Cyan & Glassmorphism)
+└── 2_ui_console_boren/        # UI 2: Console ImGui Boren Store (Dipakai di Script Rilis Terakhir)
 ```
 
 ---
@@ -40,19 +39,6 @@ ui_growlauncher/
   - `boren_mini_hud.lua`: Mini HUD overlay melayang di pojok kiri atas.
   - `form_template.lua` & `telemetry_logs.lua`: Form input multi-world & console log live.
 
----
-
-### 3. UI 3: New Apex Suite v3.0 (`3_ui_new_apex/`)
-- **Karakteristik:** Tampilan futuristik kelas Apex (Cyberpunk Glassmorphism `#060810`, aksen Neon Cyan `#00F2FE`, Emerald `#05FFA1`, dan Rose `#FF2E93`).
-- **Teknologi:** High-tier ImGui custom styling dengan window rounding tinggi (10px), glowing border, dan responsive dynamic layout.
-- **Kelebihan:** Visual sangat modern dan memukau, dilengkapi Telemetry Header bar, Metric KPI Ribbon stat counters (`POHON DITANAM`, `SPLICE BERHASIL`), Quick Preset Chips, dan Hero Execution Button (`>>> INITIATE AUTO PLANT <<<`).
-- **Komponen Mentahan:**
-  - `apex_theme.lua`: Glass palette, neon borders, smooth rounding.
-  - `apex_widgets.lua`: `colorBtn()`, `pillTab()`, `coloredText()`, `statusBadge()`, `safeInput()`.
-  - `apex_mini_hud.lua`: Sleek floating mini HUD dengan toggle instant.
-  - `apex_kpi_ribbon.lua`: Stat counter ribbon bar.
-  - `apex_dispatch_pipeline.lua`: Modern form input & dispatch table.
-  - `apex_hero_button.lua`: Glowing action execution button.
 
 ---
 
